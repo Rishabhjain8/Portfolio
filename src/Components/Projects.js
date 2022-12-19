@@ -33,7 +33,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center mdm:h-[40%] h-[45%] text-white cursor-pointer space-y-5'>
                                 <a href='https://newsshort.netlify.app' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -70,7 +70,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center mdm:h-[40%] h-[45%] text-white cursor-pointer space-y-5'>
                                 <a href='https://shopex.vercel.app' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -109,7 +109,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center mdm:h-[40%] h-[45%] text-white cursor-pointer space-y-5'>
                                 <a href='http://workdiarys.herokuapp.com' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -148,7 +148,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center mdm:h-[40%] h-[45%] text-white cursor-pointer space-y-5'>
                                 <a href='http://chatappnew-friends.herokuapp.com/' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
