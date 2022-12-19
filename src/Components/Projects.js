@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { FaLaptopCode, FaExternalLinkAlt, FaCode } from 'react-icons/fa';
 import newsshorts from '../newsshorts.png';
 import shopex from '../shopex.png';
@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 const Projects = () => {
 
     useEffect(() => {
-        AOS.init({duration: 1000})
+        AOS.init({ duration: 1000 })
     });
 
     return (
@@ -20,10 +20,10 @@ const Projects = () => {
                 <h1>Projects</h1>
             </div>
             <div className='projects-section flex flex-wrap justify-center items-center gap-24 mdm:gap-8'>
-                <div data-aos = "fade-up" className='project-section group perspective'>
-                    <div className='project relative h-[22rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
+                <div data-aos="fade-up" className='project-section group perspective'>
+                    <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-4 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={newsshorts} alt='project-image' />
                             </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-full text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
                                 <a href='https://newsshort.netlify.app' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -46,21 +46,21 @@ const Projects = () => {
                                         <p className='underline'>Code</p>
                                     </div>
                                 </a>
-                                <div className='web-feature h-20 border-t-2 border-white w-full'>
-                                <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>CSS3</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>News App</li>
-                                </ul>
                             </div>
-                            </div>
+                            <div className='web-feature h-20 border-t-2 border-white w-full'>
+                                    <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>CSS3</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>News App</li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos = "fade-up" className='project-section group perspective'>
-                    <div className='project relative h-[22rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
+                <div data-aos="fade-up" className='project-section group perspective'>
+                    <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-4 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={shopex} alt='project-image' />
                             </div>
@@ -70,7 +70,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-full text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
                                 <a href='https://shopex.vercel.app' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -83,22 +83,23 @@ const Projects = () => {
                                         <p className='underline'>Code</p>
                                     </div>
                                 </a>
-                                <div className='web-feature h-20 border-t-2 border-white w-full'>
-                                <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Tailwind CSS</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>MongoDB</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
-                                </ul>
+                                
                             </div>
-                            </div>
+                            <div className='web-feature h-20 border-t-2 border-white w-full'>
+                                    <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Tailwind CSS</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>MongoDB</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos = "fade-up" className='project-section group perspective'>
-                    <div className='project relative h-[22rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
+                <div data-aos="fade-up" className='project-section group perspective'>
+                    <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-4 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={workdiary} alt='project-image' />
                             </div>
@@ -108,7 +109,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-full text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
                                 <a href='http://workdiarys.herokuapp.com' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -121,22 +122,23 @@ const Projects = () => {
                                         <p className='underline'>Code</p>
                                     </div>
                                 </a>
-                                <div className='web-feature h-20 border-t-2 border-white w-full'>
-                                <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Bootstrap</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>MongoDB</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
-                                </ul>
+                                
                             </div>
-                            </div>
+                            <div className='web-feature h-20 border-t-2 border-white w-full'>
+                                    <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Bootstrap</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>MongoDB</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos = "fade-up" className='project-section group perspective'>
-                    <div className='project relative h-[22rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
+                <div data-aos="fade-up" className='project-section group perspective'>
+                    <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-4 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={chat} alt='project-image' />
                             </div>
@@ -146,7 +148,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='project-back h-full w-full bg-violet-900 rounded-md px-2 py-1 absolute backface-hidden my-rotate-y-180'>
-                            <div className='link flex flex-col justify-center items-center h-full text-white cursor-pointer space-y-6'>
+                            <div className='link flex flex-col justify-center items-center h-[45%] text-white cursor-pointer space-y-6'>
                                 <a href='http://chatappnew-friends.herokuapp.com/' target='_blank'>
                                     <div className='demo flex justify-center items-center text-xl gap-6'>
                                         <FaExternalLinkAlt />
@@ -159,15 +161,16 @@ const Projects = () => {
                                         <p className='underline'>Code</p>
                                     </div>
                                 </a>
-                                <div className='web-feature h-20 border-t-2 border-white w-full'>
-                                <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>CSS3</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Socket.io</li>
-                                    <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
-                                </ul>
+                                
                             </div>
-                            </div>
+                            <div className='web-feature h-20 border-t-2 border-white w-full'>
+                                    <ul className='flex flex-wrap justify-center items-center space-x-4 p-4 text-sm'>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>CSS3</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>React JS</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Socket.io</li>
+                                        <li className='border-2 border-white text-yellow-300 p-2 m-2'>Express JS</li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                 </div>
