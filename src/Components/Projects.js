@@ -23,7 +23,7 @@ const Projects = () => {
                 <div data-aos="fade-up" className='project-section group perspective'>
                     <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-4 mdm:space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={newsshorts} alt='project-image' />
                             </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <div data-aos="fade-up" className='project-section group perspective'>
                     <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-4 mdm:space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={shopex} alt='project-image' />
                             </div>
@@ -99,7 +99,7 @@ const Projects = () => {
                 <div data-aos="fade-up" className='project-section group perspective'>
                     <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-4 mdm:space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={workdiary} alt='project-image' />
                             </div>
@@ -138,7 +138,7 @@ const Projects = () => {
                 <div data-aos="fade-up" className='project-section group perspective'>
                     <div className='project relative h-[24rem] w-72 mdm:h-80 mdm:w-64 smh:w-full group-hover:my-rotate-y-180 hover:shadow-2xl preserve-3d transition duration-1000 shadow-xl'>
 
-                        <div className='project-front space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
+                        <div className='project-front space-y-4 mdm:space-y-2 h-full w-full bg-yellow-300 px-1 py-1 absolute rounded-md backface-hidden'>
                             <div className='image'>
                                 <img className='h-52 mdm:h-44 w-full rounded-md' src={chat} alt='project-image' />
                             </div>
