@@ -20,15 +20,19 @@ const Skills = () => {
             name: 'MongoDB'
         },
         {
-            img: 'https://camo.githubusercontent.com/97eae2c66014dda7c6c06aa8e7bc970a0fe5a89646cb04d9e72c8ac6c35d9f40/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f626f6f7473747261702e706e67',
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
             name: 'Boostrap'
+        },
+        {
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg',
+            name: 'Ant Design'
         },
         {
             img: 'https://img.icons8.com/color/48/000000/redux.png',
             name: 'Redux'
         },
         {
-            img: 'https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667',
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
             name: 'GIT'
         },
         {
@@ -48,6 +52,14 @@ const Skills = () => {
             name: 'JavaScript'
         },
         {
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
+            name: 'TypeScript'
+        },
+        {
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',
+            name: 'SQL'
+        },
+        {
             img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg',
             name: 'Java'
         },
@@ -60,17 +72,17 @@ const Skills = () => {
             name: 'C'
         },
         {
-            img: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png',
-            name: 'Netlify'
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg',
+            name: 'Redux'
         },
         {
-            img: 'https://img.icons8.com/color/48/000000/heroku.png',
-            name: 'Heroku'
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg',
+            name: 'Postman'
         }
     ];
 
     return (
-        <div id = 'skills' className='skills-heading font-serif bg-violet-500 p-8 h-auto mdm:p-4 lg:h-[100vh]  mdm:pt-12'>
+        <div id = 'skills' className='skills-heading font-serif bg-violet-500 p-8 h-auto mdm:p-4  mdm:pt-12'>
             <div className='about-heading text-center text-3xl mdm:text-2xl font-semibold mb-8 text-yellow-300 flex items-center justify-center space-x-3'>
                 <FaLaptopCode />
                 <h1>Skills</h1>

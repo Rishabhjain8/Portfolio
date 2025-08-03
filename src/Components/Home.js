@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Home = () => {
     return (
-        <div id = 'home' className='main p-8 bg-gradient-to-r from-violet-500 to-fuchsia-500 h-[100vh] font-serif'>
+        <div id = 'home' className='main p-8 bg-gradient-to-r from-violet-500 to-fuchsia-500 h-auto font-serif'>
             <Navbar />
             <div className='name h-full flex flex-col space-y-6 justify-center items-center text-white'>
                 <img className='border-2 border-transparent rounded-full hover:p-6 h-60 w-60 hover:shadow-2xl' src = 'https://cdni.iconscout.com/illustration/premium/thumb/male-programmer-working-on-laptop-4375019-3640109.png' alt = 'laptop' />

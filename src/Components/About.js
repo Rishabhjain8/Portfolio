@@ -11,7 +11,7 @@ const About = () => {
     }, [])
 
     return (
-        <div id="about" className='h-[70vh] p-8 mdm:p-4 font-serif flex flex-col mdm:h-auto bg-violet-200 mdm:pt-12'>
+        <div id="about" className='p-8 mdm:p-4 font-serif flex flex-col h-auto bg-violet-200 mdm:pt-12'>
             <div className='about-heading text-center text-3xl mdm:text-2xl font-semibold mb-8 flex items-center justify-center space-x-3'>
                 <FaUserAlt />
                 <h1>About <span className='text-violet-500'>Me</span></h1>
